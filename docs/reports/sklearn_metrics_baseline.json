@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.97088,
+  "precision_positive": 0.98382,
+  "recall_positive": 0.68101,
+  "f1_positive": 0.80488,
+  "roc_auc": 0.9742,
+  "average_precision": 0.87324,
+  "confusion_matrix_0_1": [
+    [
+      17515,
+      19
+    ],
+    [
+      541,
+      1155
+    ]
+  ],
+  "train_rows": 76916,
+  "test_rows": 19230,
+  "fitted_iterations": 33
+}

@@ -85,3 +85,6 @@ desktop.ini
 *.swp
 *.swo
 *~
+
+# Temporary local backups of DL-K2 migration
+*.before-dlk2.bak*

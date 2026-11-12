@@ -1,4 +1,4 @@
-# Phase 2: Python 3.11, Flask, existing DL, Neo4j official Python driver.
+# DL-K3: Windows 11 / Python 3.13.3, Flask + Neo4j + TF/Keras and training charts.
 Flask>=3.0,<4.0
 python-dotenv>=1.0,<2.0
 numpy>=1.26,<3.0
@@ -6,3 +6,10 @@ pandas>=2.0,<3.0
 scikit-learn>=1.4,<2.0
 joblib>=1.3,<2.0
 neo4j>=5.20,<7.0
+
+# DL-K2: TensorFlow/Keras inference; Windows 11 / Python 3.13 CPU compatible.
+# Original scikit-learn inference remains selectable with DL_MODEL_BACKEND=sklearn.
+tensorflow==2.21.0
+
+# Required to generate DL-K1 training/evaluation figures in the SAME .venv.
+matplotlib>=3.9,<4.0

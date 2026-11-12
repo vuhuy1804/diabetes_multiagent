@@ -1,0 +1,23 @@
+{
+  "accuracy": 0.96979,
+  "precision_positive": 0.9596,
+  "recall_positive": 0.68632,
+  "f1_positive": 0.80028,
+  "roc_auc": 0.97387,
+  "average_precision": 0.8715,
+  "confusion_matrix_0_1": [
+    [
+      17485,
+      49
+    ],
+    [
+      532,
+      1164
+    ]
+  ],
+  "test_rows": 19230,
+  "threshold": 0.5,
+  "epochs_executed": 27,
+  "test_positive_count": 1696,
+  "test_negative_count": 17534
+}

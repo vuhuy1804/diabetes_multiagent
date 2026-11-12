@@ -1,7 +1,9 @@
-"""Load a trained scikit-learn pipeline (including preprocessing) once.
+"""DL prediction facade: legacy scikit-learn or DL-K1 TensorFlow/Keras.
 
-Only load YOUR OWN locally generated .joblib: pickle/joblib is unsafe with
-untrusted files. The saved model hash is verified against the manifest.
+Select DL_MODEL_BACKEND=keras or sklearn in .env, then restart Flask.
+No automatic fallback on error. Old standalone unit tests that supply an
+explicit temporary root keep the historical sklearn default.
+Never load untrusted local model artifacts.
 """
 from __future__ import annotations
 
@@ -33,10 +35,21 @@ def sha256_file(path: Path) -> str:
 
 
 class DLPredictionService:
-    def __init__(self, root: Path = ROOT):
-        self.root = Path(root).resolve()
+    def __init__(self, root: Path | None = None, *, backend: str | None = None):
+        # Backwards compatibility: historical tests instantiate DLPredictionService(tmp).
+        # Production uses DLPredictionService() and selects via .env.
+        self.root = Path(ROOT if root is None else root).resolve()
+        selected = backend if backend is not None else (os.getenv('DL_MODEL_BACKEND', 'sklearn') if root is None else 'sklearn')
+        self.backend = selected.strip().lower() if isinstance(selected, str) else 'invalid'
+        self._keras_service = None
         self._pipeline = None
         self._manifest: dict | None = None
+
+    def _keras(self):
+        if self._keras_service is None:
+            from services.keras_dl_service import KerasDLPredictionService
+            self._keras_service = KerasDLPredictionService(root=self.root)
+        return self._keras_service
 
     def _read_and_verify(self) -> tuple[dict, Path]:
         file = (self.root / os.environ.get("MODEL_MANIFEST_PATH", MANIFEST_FILE)).resolve()
@@ -64,6 +77,10 @@ class DLPredictionService:
         return manifest, artifact
 
     def readiness(self) -> str:
+        if self.backend == 'keras':
+            return self._keras().readiness()
+        if self.backend != 'sklearn':
+            return 'not_configured'
         try:
             self._read_and_verify()
             return "ready"
@@ -83,6 +100,10 @@ class DLPredictionService:
         return self._pipeline
 
     def predict(self, raw_features: Any) -> dict[str, Any]:
+        if self.backend == 'keras':
+            return self._keras().predict(raw_features)
+        if self.backend != 'sklearn':
+            raise ModelUnavailableError('Unsupported DL_MODEL_BACKEND; use keras or sklearn')
         validated = validate_features(raw_features)
         model = self._get_pipeline()
         # Explicitly preserve original training column order.
