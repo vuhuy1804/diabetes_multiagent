@@ -1,0 +1,12 @@
+{
+  "features": {
+    "gender": "Femal",
+    "age": "forty",
+    "hypertension": true,
+    "smoking_history": "never",
+    "bmi": -7,
+    "HbA1c_level": 5.7,
+    "blood_glucose_level": "140,5",
+    "unrecognized_field": "do not echo my input"
+  }
+}

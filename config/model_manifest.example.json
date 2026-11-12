@@ -1,0 +1,12 @@
+{
+  "status": "MISSING",
+  "model_name": null,
+  "framework": null,
+  "artifact_path": null,
+  "preprocessor_path": null,
+  "feature_names_in_training_order": [],
+  "target_label_mapping": {},
+  "output_semantics": null,
+  "model_version": null,
+  "evaluation_metrics": {}
+}

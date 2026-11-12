@@ -1,0 +1,1807 @@
+{
+  "version": "demo-kg-v1.3-p1",
+  "language": "vi",
+  "scope": "Educational manually curated source-backed Knowledge Graph; not for diagnosis or individual medication advice",
+  "reviewed_on": "2026-11-12",
+  "sources": [
+    {
+      "id": "niddk-overview",
+      "publisher": "NIDDK / NIH",
+      "title": "Diabetes Overview",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview"
+    },
+    {
+      "id": "cdc-symptoms",
+      "publisher": "CDC",
+      "title": "Symptoms of Diabetes",
+      "url": "https://www.cdc.gov/diabetes/signs-symptoms/"
+    },
+    {
+      "id": "niddk-testing",
+      "publisher": "NIDDK / NIH",
+      "title": "Diabetes Tests & Diagnosis",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"
+    },
+    {
+      "id": "cdc-gestational",
+      "publisher": "CDC",
+      "title": "Gestational Diabetes",
+      "url": "https://www.cdc.gov/diabetes/about/gestational-diabetes.html"
+    },
+    {
+      "id": "cdc-meal-planning",
+      "publisher": "CDC",
+      "title": "Diabetes Meal Planning",
+      "url": "https://www.cdc.gov/diabetes/healthy-eating/diabetes-meal-planning.html"
+    },
+    {
+      "id": "niddk-healthy-living",
+      "publisher": "NIDDK / NIH",
+      "title": "Healthy Living with Diabetes",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes"
+    },
+    {
+      "id": "cdc-risk",
+      "publisher": "CDC",
+      "title": "Diabetes Risk Factors",
+      "url": "https://www.cdc.gov/diabetes/risk-factors/"
+    },
+    {
+      "id": "cdc-prediabetes",
+      "publisher": "CDC",
+      "title": "About Prediabetes and Type 2 Diabetes",
+      "url": "https://www.cdc.gov/diabetes-prevention/about-prediabetes-type-2/index.html"
+    },
+    {
+      "id": "niddk-prevention",
+      "publisher": "NIDDK / NIH",
+      "title": "Preventing Type 2 Diabetes",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-type-2-diabetes"
+    },
+    {
+      "id": "cdc-carb",
+      "publisher": "CDC",
+      "title": "Carb Counting",
+      "url": "https://www.cdc.gov/diabetes/healthy-eating/carb-counting-manage-blood-sugar.html"
+    },
+    {
+      "id": "cdc-dessert",
+      "publisher": "CDC",
+      "title": "Can People With Diabetes Have Dessert?",
+      "url": "https://www.cdc.gov/diabetes/healthy-eating/people-with-diabetes-dessert.html"
+    },
+    {
+      "id": "cdc-physical",
+      "publisher": "CDC",
+      "title": "Get Active",
+      "url": "https://www.cdc.gov/diabetes/living-with/physical-activity.html"
+    },
+    {
+      "id": "niddk-managing",
+      "publisher": "NIDDK / NIH",
+      "title": "Managing Diabetes",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes"
+    },
+    {
+      "id": "cdc-hypo",
+      "publisher": "CDC",
+      "title": "Low Blood Sugar (Hypoglycemia)",
+      "url": "https://www.cdc.gov/diabetes/about/low-blood-sugar-hypoglycemia.html"
+    },
+    {
+      "id": "cdc-dka",
+      "publisher": "CDC",
+      "title": "Diabetic Ketoacidosis",
+      "url": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html"
+    },
+    {
+      "id": "niddk-medicines",
+      "publisher": "NIDDK / NIH",
+      "title": "Insulin, Medicines, & Other Diabetes Treatments",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/insulin-medicines-treatments"
+    },
+    {
+      "id": "niddk-complications",
+      "publisher": "NIDDK / NIH",
+      "title": "Preventing Diabetes Problems",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems"
+    },
+    {
+      "id": "cdc-care",
+      "publisher": "CDC",
+      "title": "Your Diabetes Care Schedule",
+      "url": "https://www.cdc.gov/diabetes/treatment/your-diabetes-care-schedule.html"
+    },
+    {
+      "id": "niddk-eye-health",
+      "publisher": "NIDDK / NIH",
+      "title": "Diabetic Eye Disease",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-eye-disease"
+    },
+    {
+      "id": "niddk-kidney-health",
+      "publisher": "NIDDK / NIH",
+      "title": "Diabetic Kidney Disease",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease"
+    },
+    {
+      "id": "niddk-foot-health",
+      "publisher": "NIDDK / NIH",
+      "title": "Diabetes & Foot Problems",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/foot-problems"
+    },
+    {
+      "id": "niddk-heart-health",
+      "publisher": "NIDDK / NIH",
+      "title": "Diabetes, Heart Disease, & Stroke",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/heart-disease-stroke"
+    },
+    {
+      "id": "cdc-sick-days",
+      "publisher": "CDC",
+      "title": "Managing Sick Days",
+      "url": "https://www.cdc.gov/diabetes/living-with/managing-sick-days.html"
+    },
+    {
+      "id": "cdc-mental-health",
+      "publisher": "CDC",
+      "title": "Diabetes and Mental Health",
+      "url": "https://www.cdc.gov/diabetes/living-with/mental-health.html"
+    },
+    {
+      "id": "cdc-sleep-glucose",
+      "publisher": "CDC",
+      "title": "10 Surprising Things That Can Spike Your Blood Sugar",
+      "url": "https://www.cdc.gov/diabetes/living-with/10-things-that-spike-blood-sugar.html"
+    },
+    {
+      "id": "cdc-living",
+      "publisher": "CDC",
+      "title": "Living with Diabetes",
+      "url": "https://www.cdc.gov/diabetes/living-with/"
+    },
+    {
+      "id": "cdc-travel",
+      "publisher": "CDC",
+      "title": "Tips for Traveling With Diabetes",
+      "url": "https://www.cdc.gov/diabetes/about/tips-for-traveling-with-diabetes.html"
+    },
+    {
+      "id": "niddk-types-what",
+      "publisher": "NIDDK / NIH",
+      "title": "What Is Diabetes?",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/"
+    },
+    {
+      "id": "ada-remission-consensus",
+      "publisher": "American Diabetes Association",
+      "title": "International Experts Outline Diabetes Remission Diagnosis Criteria",
+      "url": "https://diabetes.org/newsroom/international-experts-outline-diabetes-remission-diagnosis-criteria"
+    }
+  ],
+  "topics": [
+    {
+      "id": "diabetes",
+      "name": "Tổng quan bệnh tiểu đường",
+      "aliases": [
+        "tiểu đường",
+        "đái tháo đường",
+        "diabetes",
+        "bệnh tiểu đường"
+      ],
+      "category": "general",
+      "summary": "Khái niệm và kiến thức cơ bản về bệnh tiểu đường.",
+      "priority": 0
+    },
+    {
+      "id": "types",
+      "name": "Các loại bệnh tiểu đường",
+      "aliases": [
+        "các loại tiểu đường",
+        "mấy loại tiểu đường",
+        "mấy loại",
+        "phân loại tiểu đường",
+        "loại bệnh tiểu đường",
+        "loại đái tháo đường",
+        "types of diabetes",
+        "type of diabetes"
+      ],
+      "category": "types",
+      "summary": "Ba nhóm chính thường được giới thiệu: type 1, type 2 và đái tháo đường thai kỳ.",
+      "priority": 0
+    },
+    {
+      "id": "type1",
+      "name": "Tiểu đường type 1",
+      "aliases": [
+        "type 1",
+        "type1",
+        "loại 1",
+        "tuýp 1",
+        "týp 1",
+        "đái tháo đường típ 1"
+      ],
+      "category": "types",
+      "summary": "Đái tháo đường type 1.",
+      "priority": 0
+    },
+    {
+      "id": "type2",
+      "name": "Tiểu đường type 2",
+      "aliases": [
+        "type 2",
+        "type2",
+        "loại 2",
+        "tuýp 2",
+        "týp 2",
+        "đái tháo đường típ 2"
+      ],
+      "category": "types",
+      "summary": "Đái tháo đường type 2.",
+      "priority": 0
+    },
+    {
+      "id": "gestational",
+      "name": "Đái tháo đường thai kỳ",
+      "aliases": [
+        "thai kỳ",
+        "thai ki",
+        "gestational",
+        "tiểu đường mang thai",
+        "đái tháo đường thai kỳ"
+      ],
+      "category": "types",
+      "summary": "Tình trạng đường huyết cao phát triển trong thai kỳ.",
+      "priority": 0
+    },
+    {
+      "id": "symptoms",
+      "name": "Triệu chứng thường gặp",
+      "aliases": [
+        "triệu chứng",
+        "dấu hiệu",
+        "biểu hiện",
+        "symptoms",
+        "khát nhiều",
+        "tiểu nhiều",
+        "mờ mắt",
+        "mệt mỏi"
+      ],
+      "category": "symptoms",
+      "summary": "Các biểu hiện có thể gặp nhưng không tự khẳng định chẩn đoán.",
+      "priority": 0
+    },
+    {
+      "id": "testing",
+      "name": "Xét nghiệm đánh giá tiểu đường",
+      "aliases": [
+        "xét nghiệm",
+        "chẩn đoán",
+        "kiểm tra",
+        "đo đường huyết",
+        "test",
+        "xét nghiệm đường",
+        "glucose"
+      ],
+      "category": "testing",
+      "summary": "Một số xét nghiệm sử dụng trong đánh giá bệnh tiểu đường.",
+      "priority": 0
+    },
+    {
+      "id": "a1c",
+      "name": "Xét nghiệm HbA1c",
+      "aliases": [
+        "hba1c",
+        "a1c",
+        "hemoglobin a1c",
+        "glycated hemoglobin"
+      ],
+      "category": "testing",
+      "summary": "Xét nghiệm phản ánh mức đường huyết trung bình khoảng ba tháng.",
+      "priority": 0
+    },
+    {
+      "id": "nutrition",
+      "name": "Dinh dưỡng và ăn uống khi mắc bệnh tiểu đường",
+      "aliases": [
+        "ăn gì",
+        "nên ăn",
+        "ăn uống",
+        "dinh dưỡng",
+        "thực phẩm",
+        "chế độ ăn",
+        "bữa ăn",
+        "thực đơn",
+        "kiêng ăn",
+        "đồ ăn",
+        "ăn thế nào",
+        "ăn gì tốt",
+        "ăn như thế nào",
+        "nên uống",
+        "món ăn",
+        "đĩa ăn",
+        "nutrition",
+        "meal plan",
+        "healthy eating"
+      ],
+      "category": "nutrition",
+      "summary": "Kiến thức chung về lựa chọn thực phẩm và bữa ăn cân bằng; không phải thực đơn hoặc đơn điều trị cá nhân.",
+      "priority": 0
+    },
+    {
+      "id": "risk_factors",
+      "name": "Nguyên nhân và yếu tố nguy cơ",
+      "aliases": [
+        "nguyên nhân tiểu đường",
+        "nguyên nhân đái tháo đường",
+        "vì sao mắc tiểu đường",
+        "có di truyền",
+        "di truyền",
+        "yếu tố nguy cơ",
+        "nguy cơ mắc bệnh",
+        "đề kháng insulin",
+        "nguyên nhân bệnh tiểu đường"
+      ],
+      "category": "risks",
+      "summary": "Những yếu tố ảnh hưởng nguy cơ, không dùng để dự đoán cá nhân.",
+      "priority": 0
+    },
+    {
+      "id": "prediabetes",
+      "name": "Tiền đái tháo đường",
+      "aliases": [
+        "tiền tiểu đường",
+        "tiền đái tháo đường",
+        "prediabetes",
+        "đường huyết cao nhưng chưa tiểu đường"
+      ],
+      "category": "risks",
+      "summary": "Khái niệm tiền đái tháo đường và ý nghĩa theo dõi.",
+      "priority": 0
+    },
+    {
+      "id": "prevention",
+      "name": "Phòng ngừa đái tháo đường type 2",
+      "aliases": [
+        "phòng tránh bệnh tiểu đường type 2",
+        "phòng ngừa",
+        "phòng tránh",
+        "ngăn ngừa tiểu đường",
+        "phòng bệnh tiểu đường",
+        "giảm nguy cơ type 2",
+        "prevent type 2"
+      ],
+      "category": "prevention",
+      "summary": "Những nguyên tắc chung giảm nguy cơ type 2.",
+      "priority": 0
+    },
+    {
+      "id": "carb_rice",
+      "name": "Cơm, gạo và tinh bột",
+      "aliases": [
+        "ăn cơm",
+        "cơm trắng",
+        "gạo lứt",
+        "bánh mì",
+        "tinh bột",
+        "carbohydrate",
+        "carb",
+        "ngũ cốc",
+        "ăn bún",
+        "ăn phở"
+      ],
+      "category": "nutrition",
+      "summary": "Carbohydrate và món ăn giàu tinh bột.",
+      "priority": 0
+    },
+    {
+      "id": "fruits",
+      "name": "Trái cây và bệnh tiểu đường",
+      "aliases": [
+        "trái cây",
+        "hoa quả",
+        "ăn chuối",
+        "ăn táo",
+        "ăn cam",
+        "ăn xoài",
+        "trái cây ngọt",
+        "quả chuối"
+      ],
+      "category": "nutrition",
+      "summary": "Trái cây có carbohydrate nhưng vẫn có thể là một phần thực đơn.",
+      "priority": 0
+    },
+    {
+      "id": "sweets",
+      "name": "Bánh ngọt và đường bổ sung",
+      "aliases": [
+        "bánh ngọt",
+        "bánh kẹo",
+        "món ngọt",
+        "ăn đồ ngọt",
+        "ăn bánh",
+        "đường bổ sung",
+        "kẹo",
+        "bánh sinh nhật",
+        "tráng miệng"
+      ],
+      "category": "nutrition",
+      "summary": "Hiểu đúng về món ngọt và đường bổ sung.",
+      "priority": 0
+    },
+    {
+      "id": "drinks",
+      "name": "Nước uống và đồ uống có đường",
+      "aliases": [
+        "uống gì",
+        "uống nước gì",
+        "nước ngọt",
+        "nước ép",
+        "nước trái cây",
+        "trà sữa",
+        "đồ uống có đường",
+        "nước lọc",
+        "nước uống"
+      ],
+      "category": "nutrition",
+      "summary": "Khác biệt giữa đồ uống không đường và có đường.",
+      "priority": 0
+    },
+    {
+      "id": "exercise",
+      "name": "Hoạt động thể chất",
+      "aliases": [
+        "tập thể dục",
+        "vận động",
+        "đi bộ",
+        "thể thao",
+        "tập gym",
+        "luyện tập",
+        "thể dục"
+      ],
+      "category": "lifestyle",
+      "summary": "Lợi ích của vận động và lưu ý chung.",
+      "priority": 0
+    },
+    {
+      "id": "blood_glucose",
+      "name": "Theo dõi đường huyết tại nhà",
+      "aliases": [
+        "theo dõi đường huyết",
+        "máy đo đường huyết",
+        "đo đường huyết tại nhà",
+        "kiểm tra đường huyết tại nhà",
+        "glucometer",
+        "máy đo glucose",
+        "chỉ số đường huyết",
+        "cgm"
+      ],
+      "category": "monitoring",
+      "summary": "Phương pháp theo dõi và giải thích số đo.",
+      "priority": 0
+    },
+    {
+      "id": "high_glucose",
+      "name": "Tăng đường huyết",
+      "aliases": [
+        "tăng đường huyết",
+        "đường huyết cao",
+        "đường máu cao",
+        "hyperglycemia",
+        "glucose cao",
+        "chỉ số đường cao"
+      ],
+      "category": "monitoring",
+      "summary": "Giới thiệu về tình trạng glucose máu tăng cao.",
+      "priority": 0
+    },
+    {
+      "id": "low_glucose",
+      "name": "Hạ đường huyết",
+      "aliases": [
+        "hạ đường huyết",
+        "tụt đường huyết",
+        "đường huyết thấp",
+        "hạ đường máu",
+        "tụt đường",
+        "hypoglycemia",
+        "đường máu thấp"
+      ],
+      "category": "monitoring",
+      "summary": "Dấu hiệu và mức độ nguy hiểm của hạ đường huyết.",
+      "priority": 0
+    },
+    {
+      "id": "emergency_dka",
+      "name": "Nhiễm toan ceton và dấu hiệu cấp cứu",
+      "aliases": [
+        "nhiễm toan ceton",
+        "ceton",
+        "ketone",
+        "ketoacidosis",
+        "dka",
+        "cấp cứu tiểu đường",
+        "hơi thở mùi trái cây",
+        "khó thở và nôn"
+      ],
+      "category": "emergency",
+      "summary": "Dấu hiệu tình huống cần hỗ trợ y tế khẩn cấp.",
+      "priority": 0
+    },
+    {
+      "id": "medicines_overview",
+      "name": "Thuốc và insulin — kiến thức tổng quan",
+      "aliases": [
+        "các loại thuốc",
+        "thuốc điều trị",
+        "thuốc tiểu đường",
+        "thuốc hạ đường huyết",
+        "metformin là gì",
+        "insulin là gì",
+        "điều trị tiểu đường",
+        "điều trị bệnh"
+      ],
+      "category": "treatment",
+      "summary": "Giới thiệu phương pháp điều trị ở mức khái niệm, không kê đơn.",
+      "priority": 0
+    },
+    {
+      "id": "complications",
+      "name": "Biến chứng của đái tháo đường",
+      "aliases": [
+        "biến chứng",
+        "biến chứng tiểu đường",
+        "ảnh hưởng cơ quan",
+        "ảnh hưởng mắt",
+        "ảnh hưởng thận",
+        "tim mạch",
+        "tổn thương thần kinh"
+      ],
+      "category": "complications",
+      "summary": "Những ảnh hưởng dài hạn có thể gặp.",
+      "priority": 0
+    },
+    {
+      "id": "checkups",
+      "name": "Khám và theo dõi định kỳ",
+      "aliases": [
+        "tái khám",
+        "khám định kỳ",
+        "khám mắt định kỳ",
+        "kiểm tra thận",
+        "kiểm tra chân",
+        "lịch khám",
+        "cần khám gì",
+        "theo dõi sức khỏe"
+      ],
+      "category": "monitoring",
+      "summary": "Các nội dung thường được theo dõi trong lịch khám.",
+      "priority": 0
+    },
+    {
+      "id": "insulin_basics",
+      "name": "Insulin và vai trò trong bệnh tiểu đường",
+      "aliases": [
+        "insulin là gì",
+        "insulin",
+        "vai trò insulin",
+        "hormone insulin",
+        "thiếu insulin",
+        "tế bào sử dụng glucose",
+        "sử dụng insulin"
+      ],
+      "category": "treatment",
+      "summary": "Vai trò sinh học của insulin và mối liên hệ với glucose trong bệnh tiểu đường.",
+      "priority": 32
+    },
+    {
+      "id": "eye_health",
+      "name": "Bảo vệ mắt khi có bệnh tiểu đường",
+      "aliases": [
+        "biến chứng mắt",
+        "bệnh võng mạc",
+        "mắt mờ",
+        "khám mắt",
+        "mắt tiểu đường",
+        "mù mắt",
+        "thị lực",
+        "võng mạc",
+        "khám đáy mắt",
+        "chớp sáng",
+        "mờ mắt",
+        "thị lực mắt"
+      ],
+      "category": "complications",
+      "summary": "Nhận diện tổn thương mắt và tầm quan trọng của kiểm tra thị lực.",
+      "priority": 24
+    },
+    {
+      "id": "kidney_health",
+      "name": "Bệnh thận liên quan đến đái tháo đường",
+      "aliases": [
+        "bệnh thận",
+        "biến chứng thận",
+        "thận tiểu đường",
+        "đạm niệu",
+        "albumin niệu",
+        "xét nghiệm thận",
+        "suy thận",
+        "thận",
+        "bệnh thận do tiểu đường",
+        "chức năng thận",
+        "chức năng lọc thận",
+        "đường huyết ảnh hưởng thận",
+        "bảo vệ thận"
+      ],
+      "category": "complications",
+      "summary": "Tác động lên thận và các xét nghiệm phát hiện sớm.",
+      "priority": 24
+    },
+    {
+      "id": "foot_health",
+      "name": "Chăm sóc bàn chân và biến chứng thần kinh",
+      "aliases": [
+        "bàn chân",
+        "bàn chân tiểu đường",
+        "tê chân",
+        "vết loét chân",
+        "chăm sóc chân",
+        "vết thương lâu lành",
+        "tổn thương thần kinh",
+        "giày",
+        "giày vừa chân",
+        "vết xước chân",
+        "chân tê",
+        "phồng rộp chân",
+        "bàn chân bị thương"
+      ],
+      "category": "complications",
+      "summary": "Các nguy cơ ở bàn chân và việc nhận biết thay đổi bất thường.",
+      "priority": 24
+    },
+    {
+      "id": "heart_health",
+      "name": "Tim mạch và đột quỵ trong bệnh tiểu đường",
+      "aliases": [
+        "bệnh tim",
+        "tim mạch",
+        "đột quỵ",
+        "nhồi máu cơ tim",
+        "bảo vệ tim",
+        "huyết áp cholesterol",
+        "mạch máu",
+        "tim",
+        "sức khỏe tim mạch",
+        "huyết áp cao",
+        "nguy cơ tim mạch"
+      ],
+      "category": "complications",
+      "summary": "Liên hệ giữa đái tháo đường và sức khỏe tim mạch.",
+      "priority": 24
+    },
+    {
+      "id": "after_gestational",
+      "name": "Theo dõi sau đái tháo đường thai kỳ",
+      "aliases": [
+        "sau sinh",
+        "sau tiểu đường thai kỳ",
+        "sau đái tháo đường thai kỳ",
+        "hậu sản",
+        "sau mang thai",
+        "kiểm tra sau sinh",
+        "sau thai kỳ",
+        "sau khi sinh",
+        "từng bị tiểu đường thai kỳ"
+      ],
+      "category": "pregnancy",
+      "summary": "Theo dõi và nguy cơ trong thời gian sau thai kỳ.",
+      "priority": 45
+    },
+    {
+      "id": "sick_days",
+      "name": "Chăm sóc sức khỏe khi bị ốm",
+      "aliases": [
+        "khi bị ốm",
+        "bị sốt",
+        "bị cúm",
+        "khi bị bệnh",
+        "ngày ốm",
+        "bị nhiễm trùng",
+        "mất nước khi ốm",
+        "bị ốm",
+        "ốm",
+        "bị bệnh",
+        "mất nước",
+        "nhiễm trùng"
+      ],
+      "category": "lifestyle",
+      "summary": "Hiểu vì sao đường huyết thay đổi khi có bệnh cấp tính.",
+      "priority": 32
+    },
+    {
+      "id": "sleep_stress",
+      "name": "Giấc ngủ, căng thẳng và đường huyết",
+      "aliases": [
+        "mất ngủ",
+        "thiếu ngủ",
+        "giấc ngủ",
+        "stress",
+        "căng thẳng",
+        "lo âu",
+        "sức khỏe tinh thần",
+        "diabetes distress",
+        "khó ngủ",
+        "ngủ ít",
+        "tâm lý",
+        "căng thẳng tinh thần"
+      ],
+      "category": "lifestyle",
+      "summary": "Mối liên hệ giữa căng thẳng, giấc ngủ và quản lý bệnh.",
+      "priority": 47
+    },
+    {
+      "id": "daily_living",
+      "name": "Sinh hoạt, học tập và làm việc với bệnh tiểu đường",
+      "aliases": [
+        "sinh hoạt",
+        "đi học",
+        "đi làm",
+        "làm việc",
+        "cuộc sống hàng ngày",
+        "thói quen hàng ngày",
+        "tự chăm sóc",
+        "sống chung với",
+        "tự quản lý",
+        "quản lý bệnh hằng ngày",
+        "hoạt động hằng ngày",
+        "giáo dục tự quản lý",
+        "học tập và làm việc"
+      ],
+      "category": "lifestyle",
+      "summary": "Thói quen thực tế khi sống cùng bệnh tiểu đường.",
+      "priority": 24
+    },
+    {
+      "id": "travel_health",
+      "name": "Đi du lịch khi có bệnh tiểu đường",
+      "aliases": [
+        "du lịch",
+        "đi máy bay",
+        "đi xa",
+        "đi chơi xa",
+        "múi giờ",
+        "hành lý du lịch",
+        "đi công tác",
+        "kỳ nghỉ",
+        "đi du lịch",
+        "du lịch cùng bệnh tiểu đường",
+        "đi lại xa",
+        "chuyến đi"
+      ],
+      "category": "lifestyle",
+      "summary": "Chuẩn bị việc theo dõi sức khỏe khi đi lại và thay đổi lịch sinh hoạt.",
+      "priority": 28
+    },
+    {
+      "id": "misconceptions",
+      "name": "Những hiểu lầm thường gặp về tiểu đường",
+      "aliases": [
+        "hiểu lầm",
+        "quan niệm sai",
+        "đồn đoán",
+        "khỏi hoàn toàn",
+        "chữa khỏi",
+        "chỉ người già",
+        "ăn đường gây bệnh",
+        "truyền nhiễm",
+        "lây bệnh",
+        "một loại",
+        "chỉ có một loại",
+        "người lớn tuổi",
+        "nguyên nhân duy nhất",
+        "có lây",
+        "lây qua tiếp xúc",
+        "bệnh lây"
+      ],
+      "category": "education",
+      "summary": "Giải thích các quan niệm thường gặp dựa trên tài liệu công khai.",
+      "priority": 32
+    }
+  ],
+  "facts": [
+    {
+      "id": "f01",
+      "topic_id": "diabetes",
+      "text": "Đái tháo đường là tình trạng đường huyết tăng cao, việc đánh giá thực tế cần dựa trên xét nghiệm và nhân viên y tế.",
+      "source_id": "niddk-overview"
+    },
+    {
+      "id": "f02",
+      "topic_id": "diabetes",
+      "text": "NIDDK giới thiệu các nhóm chính gồm type 1, type 2 và đái tháo đường thai kỳ.",
+      "source_id": "niddk-overview"
+    },
+    {
+      "id": "f03",
+      "topic_id": "types",
+      "text": "Ba loại chính được giới thiệu cho mục đích học tập là đái tháo đường type 1, type 2 và đái tháo đường thai kỳ.",
+      "source_id": "niddk-overview"
+    },
+    {
+      "id": "f04",
+      "topic_id": "type1",
+      "text": "Type 1 liên quan đến việc cơ thể sản xuất rất ít hoặc không sản xuất insulin do cơ chế tự miễn ở phần lớn trường hợp.",
+      "source_id": "niddk-overview"
+    },
+    {
+      "id": "f05",
+      "topic_id": "type2",
+      "text": "Type 2 liên quan đến việc cơ thể sử dụng insulin không hiệu quả và dần không đáp ứng đủ nhu cầu.",
+      "source_id": "niddk-overview"
+    },
+    {
+      "id": "f06",
+      "topic_id": "gestational",
+      "text": "Đái tháo đường thai kỳ xuất hiện trong thời gian mang thai ở người trước đó chưa mắc tiểu đường.",
+      "source_id": "cdc-gestational"
+    },
+    {
+      "id": "f07",
+      "topic_id": "gestational",
+      "text": "Đái tháo đường thai kỳ thường ít hoặc không có triệu chứng rõ, việc sàng lọc trong thai kỳ do nhân viên y tế hướng dẫn.",
+      "source_id": "cdc-gestational"
+    },
+    {
+      "id": "f08",
+      "topic_id": "symptoms",
+      "text": "Các biểu hiện có thể gặp gồm khát nhiều, đi tiểu thường xuyên và mệt mỏi.",
+      "source_id": "cdc-symptoms"
+    },
+    {
+      "id": "f09",
+      "topic_id": "symptoms",
+      "text": "Một số người có thể bị nhìn mờ hoặc sụt cân không chủ ý, cũng có trường hợp không có triệu chứng rõ.",
+      "source_id": "cdc-symptoms"
+    },
+    {
+      "id": "f10",
+      "topic_id": "symptoms",
+      "text": "Triệu chứng đơn lẻ không đủ để khẳng định hoặc loại trừ bệnh tiểu đường.",
+      "source_id": "niddk-overview"
+    },
+    {
+      "id": "f11",
+      "topic_id": "testing",
+      "text": "Bác sĩ có thể dùng xét nghiệm HbA1c, đường huyết lúc đói hoặc nghiệm pháp dung nạp glucose tùy tình huống.",
+      "source_id": "niddk-testing"
+    },
+    {
+      "id": "f12",
+      "topic_id": "testing",
+      "text": "Kết quả xét nghiệm cần được diễn giải trong bối cảnh phù hợp, nhiều tình huống cần xét nghiệm xác nhận.",
+      "source_id": "niddk-testing"
+    },
+    {
+      "id": "f13",
+      "topic_id": "a1c",
+      "text": "HbA1c phản ánh đường huyết trung bình trong khoảng ba tháng trước xét nghiệm.",
+      "source_id": "niddk-testing"
+    },
+    {
+      "id": "f14",
+      "topic_id": "a1c",
+      "text": "Một số tình trạng ảnh hưởng hồng cầu hoặc hemoglobin có thể làm xét nghiệm HbA1c thiếu tin cậy.",
+      "source_id": "niddk-testing"
+    },
+    {
+      "id": "f15",
+      "topic_id": "testing",
+      "text": "Xét nghiệm glucose máu lúc đói đo đường huyết tại một thời điểm sau giai đoạn nhịn ăn theo hướng dẫn.",
+      "source_id": "niddk-testing"
+    },
+    {
+      "id": "f16",
+      "topic_id": "testing",
+      "text": "Nghiệm pháp dung nạp glucose đánh giá phản ứng đường huyết sau khi uống dung dịch chứa glucose trong quy trình xét nghiệm.",
+      "source_id": "niddk-testing"
+    },
+    {
+      "id": "f17",
+      "topic_id": "nutrition",
+      "text": "Bữa ăn cân bằng cho người mắc đái tháo đường có thể bao gồm rau củ không chứa nhiều tinh bột, các thực phẩm giàu đạm và nguồn tinh bột phù hợp; không có một thực đơn duy nhất cho tất cả mọi người.",
+      "source_id": "niddk-healthy-living"
+    },
+    {
+      "id": "f18",
+      "topic_id": "nutrition",
+      "text": "CDC giới thiệu cách hình dung đĩa ăn: khoảng một nửa là rau không chứa nhiều tinh bột, một phần tư là thực phẩm giàu đạm, phần còn lại là thực phẩm chứa carbohydrate.",
+      "source_id": "cdc-meal-planning"
+    },
+    {
+      "id": "f19",
+      "topic_id": "nutrition",
+      "text": "Có thể ưu tiên rau xanh, trái cây nguyên quả, các loại đậu, ngũ cốc nguyên hạt, cá, trứng hoặc đạm từ thực vật theo khẩu vị và nhu cầu cá nhân.",
+      "source_id": "niddk-healthy-living"
+    },
+    {
+      "id": "f20",
+      "topic_id": "nutrition",
+      "text": "Nước lọc và đồ uống không thêm đường thường là lựa chọn thích hợp hơn so với đồ uống nhiều đường bổ sung.",
+      "source_id": "cdc-meal-planning"
+    },
+    {
+      "id": "f21",
+      "topic_id": "nutrition",
+      "text": "Người bệnh vẫn có thể ăn nhiều món quen thuộc; kế hoạch ăn uống nên được xây dựng linh hoạt theo sinh hoạt, sở thích và chỉ dẫn của nhân viên y tế.",
+      "source_id": "niddk-healthy-living"
+    },
+    {
+      "id": "f22",
+      "topic_id": "nutrition",
+      "text": "Nhu cầu ăn uống có thể thay đổi theo tình trạng sức khỏe, thuốc sử dụng và hoạt động hằng ngày; người mắc đái tháo đường nên thảo luận với nhân viên y tế hoặc chuyên gia dinh dưỡng để được tư vấn phù hợp.",
+      "source_id": "cdc-meal-planning"
+    },
+    {
+      "id": "f23",
+      "topic_id": "risk_factors",
+      "text": "Tiền sử gia đình có người mắc đái tháo đường là một yếu tố nguy cơ, nhưng không đồng nghĩa một người chắc chắn sẽ mắc bệnh.",
+      "source_id": "cdc-risk"
+    },
+    {
+      "id": "f24",
+      "topic_id": "risk_factors",
+      "text": "Đái tháo đường type 1 thường liên quan đến phản ứng tự miễn và có thể xuất hiện ở nhiều độ tuổi.",
+      "source_id": "cdc-risk"
+    },
+    {
+      "id": "f25",
+      "topic_id": "risk_factors",
+      "text": "Type 2 có liên quan đến tình trạng cơ thể đáp ứng insulin kém và nhiều yếu tố nguy cơ kết hợp.",
+      "source_id": "niddk-overview"
+    },
+    {
+      "id": "f26",
+      "topic_id": "risk_factors",
+      "text": "Tiền đái tháo đường, tiền sử đái tháo đường thai kỳ và ít hoạt động thể chất là những yếu tố liên quan nguy cơ type 2.",
+      "source_id": "cdc-risk"
+    },
+    {
+      "id": "f27",
+      "topic_id": "prediabetes",
+      "text": "Tiền đái tháo đường là khi mức glucose máu cao hơn bình thường nhưng chưa đạt mức dùng để chẩn đoán đái tháo đường.",
+      "source_id": "cdc-prediabetes"
+    },
+    {
+      "id": "f28",
+      "topic_id": "prediabetes",
+      "text": "Tiền đái tháo đường có thể tiến triển thành type 2, nhưng điều đó không xảy ra với tất cả mọi người.",
+      "source_id": "cdc-prediabetes"
+    },
+    {
+      "id": "f29",
+      "topic_id": "prediabetes",
+      "text": "Nhiều người tiền đái tháo đường không có biểu hiện rõ, nên xét nghiệm là cách quan trọng để phát hiện.",
+      "source_id": "niddk-prevention"
+    },
+    {
+      "id": "f30",
+      "topic_id": "prediabetes",
+      "text": "Thay đổi lối sống phù hợp có thể giúp trì hoãn hoặc ngăn tiến triển sang type 2 ở nhiều người có nguy cơ.",
+      "source_id": "niddk-prevention"
+    },
+    {
+      "id": "f31",
+      "topic_id": "prevention",
+      "text": "Đái tháo đường type 2 có thể được phòng ngừa hoặc trì hoãn ở nhiều người có nguy cơ.",
+      "source_id": "niddk-prevention"
+    },
+    {
+      "id": "f32",
+      "topic_id": "prevention",
+      "text": "Các lựa chọn ăn uống cân bằng và hoạt động thể chất thường xuyên là những biện pháp hỗ trợ giảm nguy cơ type 2.",
+      "source_id": "niddk-prevention"
+    },
+    {
+      "id": "f33",
+      "topic_id": "prevention",
+      "text": "Thay đổi lối sống cần phù hợp tình trạng sức khỏe và được duy trì lâu dài, thay vì phụ thuộc vào giải pháp ngắn hạn.",
+      "source_id": "niddk-prevention"
+    },
+    {
+      "id": "f34",
+      "topic_id": "prevention",
+      "text": "Đến cơ sở y tế để được sàng lọc nếu có yếu tố nguy cơ là cách hữu ích để phát hiện sớm các bất thường đường huyết.",
+      "source_id": "cdc-prediabetes"
+    },
+    {
+      "id": "f35",
+      "topic_id": "carb_rice",
+      "text": "Cơm, bánh mì, bún, phở và các loại ngũ cốc cung cấp carbohydrate, có thể làm tăng glucose máu sau ăn.",
+      "source_id": "cdc-carb"
+    },
+    {
+      "id": "f36",
+      "topic_id": "carb_rice",
+      "text": "Người mắc đái tháo đường không nhất thiết phải bỏ hoàn toàn cơm hay món ăn có tinh bột; cách cân đối bữa ăn cần xét đến lượng carbohydrate và nhu cầu cá nhân.",
+      "source_id": "cdc-meal-planning"
+    },
+    {
+      "id": "f37",
+      "topic_id": "carb_rice",
+      "text": "Ngũ cốc nguyên hạt là một lựa chọn có thể được ưu tiên so với ngũ cốc tinh chế trong một chế độ ăn cân bằng.",
+      "source_id": "cdc-meal-planning"
+    },
+    {
+      "id": "f38",
+      "topic_id": "carb_rice",
+      "text": "Đĩa ăn cân bằng có thể dành khoảng một phần tư cho nhóm thực phẩm chứa carbohydrate, cùng rau không nhiều tinh bột và nguồn đạm.",
+      "source_id": "cdc-meal-planning"
+    },
+    {
+      "id": "f39",
+      "topic_id": "fruits",
+      "text": "Trái cây chứa carbohydrate tự nhiên nên vẫn góp phần ảnh hưởng đến đường huyết.",
+      "source_id": "cdc-carb"
+    },
+    {
+      "id": "f40",
+      "topic_id": "fruits",
+      "text": "Trái cây nguyên quả có thể là một phần của bữa ăn cân bằng khi mắc đái tháo đường, không cần loại bỏ mọi loại trái cây.",
+      "source_id": "niddk-healthy-living"
+    },
+    {
+      "id": "f41",
+      "topic_id": "fruits",
+      "text": "Lượng carbohydrate từ trái cây và các món khác trong bữa ăn cần được cân nhắc cùng nhau.",
+      "source_id": "cdc-carb"
+    },
+    {
+      "id": "f42",
+      "topic_id": "fruits",
+      "text": "Việc chọn trái cây nào và ăn bao nhiêu cần linh hoạt theo nhu cầu của từng người và lời khuyên của chuyên gia y tế.",
+      "source_id": "cdc-meal-planning"
+    },
+    {
+      "id": "f43",
+      "topic_id": "sweets",
+      "text": "Món tráng miệng không nhất thiết bị cấm tuyệt đối với tất cả người mắc đái tháo đường; cần cân nhắc tổng thể khẩu phần và kế hoạch ăn uống.",
+      "source_id": "cdc-dessert"
+    },
+    {
+      "id": "f44",
+      "topic_id": "sweets",
+      "text": "Nhiều loại bánh ngọt và kẹo chứa nhiều carbohydrate, có thể làm glucose máu tăng.",
+      "source_id": "cdc-dessert"
+    },
+    {
+      "id": "f45",
+      "topic_id": "sweets",
+      "text": "Không nên xem thực phẩm ghi nhãn không đường là không có carbohydrate; vẫn cần đọc bảng thành phần dinh dưỡng.",
+      "source_id": "cdc-carb"
+    },
+    {
+      "id": "f46",
+      "topic_id": "sweets",
+      "text": "Kế hoạch ăn uống cần tính cả lượng carbohydrate trong món ngọt cùng thực phẩm khác thay vì tách riêng.",
+      "source_id": "cdc-dessert"
+    },
+    {
+      "id": "f47",
+      "topic_id": "drinks",
+      "text": "Nước lọc hoặc đồ uống không thêm đường thường là lựa chọn phù hợp trong chế độ ăn cân bằng.",
+      "source_id": "cdc-meal-planning"
+    },
+    {
+      "id": "f48",
+      "topic_id": "drinks",
+      "text": "Nước ngọt và nhiều loại đồ uống có đường bổ sung cung cấp carbohydrate có thể làm tăng đường huyết.",
+      "source_id": "cdc-carb"
+    },
+    {
+      "id": "f49",
+      "topic_id": "drinks",
+      "text": "Nước ép trái cây cũng cung cấp carbohydrate ngay cả khi không thêm đường.",
+      "source_id": "cdc-carb"
+    },
+    {
+      "id": "f50",
+      "topic_id": "drinks",
+      "text": "Thói quen chọn đồ uống nên dựa trên thành phần dinh dưỡng và nhu cầu sức khỏe của từng người.",
+      "source_id": "niddk-healthy-living"
+    },
+    {
+      "id": "f51",
+      "topic_id": "exercise",
+      "text": "Hoạt động thể chất thường xuyên giúp cơ thể quản lý đường huyết tốt hơn và mang lại lợi ích cho sức khỏe tim mạch.",
+      "source_id": "cdc-physical"
+    },
+    {
+      "id": "f52",
+      "topic_id": "exercise",
+      "text": "Đi bộ và các hoạt động phù hợp khả năng thể chất có thể là cách đơn giản để tăng vận động hằng ngày.",
+      "source_id": "cdc-physical"
+    },
+    {
+      "id": "f53",
+      "topic_id": "exercise",
+      "text": "Thời gian và loại vận động cần phù hợp tình trạng sức khỏe, nhất là khi có bệnh kèm hoặc biến chứng.",
+      "source_id": "cdc-physical"
+    },
+    {
+      "id": "f54",
+      "topic_id": "exercise",
+      "text": "Người đang dùng một số thuốc hạ đường huyết nên trao đổi với nhóm chăm sóc y tế để biết các lưu ý an toàn khi vận động.",
+      "source_id": "niddk-managing"
+    },
+    {
+      "id": "f55",
+      "topic_id": "blood_glucose",
+      "text": "Máy đo đường huyết tại nhà cung cấp giá trị glucose máu tại thời điểm đo.",
+      "source_id": "niddk-managing"
+    },
+    {
+      "id": "f56",
+      "topic_id": "blood_glucose",
+      "text": "Thiết bị đo glucose liên tục (CGM) cho thấy xu hướng thay đổi glucose theo thời gian.",
+      "source_id": "niddk-managing"
+    },
+    {
+      "id": "f57",
+      "topic_id": "blood_glucose",
+      "text": "Lịch đo và khoảng đường huyết mục tiêu có thể khác nhau giữa các bệnh nhân, nên được nhân viên y tế xác định.",
+      "source_id": "niddk-managing"
+    },
+    {
+      "id": "f58",
+      "topic_id": "blood_glucose",
+      "text": "Ghi lại thời điểm và kết quả đo có thể giúp người bệnh trao đổi với nhân viên y tế về quá trình theo dõi.",
+      "source_id": "niddk-managing"
+    },
+    {
+      "id": "f59",
+      "topic_id": "high_glucose",
+      "text": "Tăng đường huyết là tình trạng mức glucose trong máu cao hơn phạm vi phù hợp với người bệnh.",
+      "source_id": "niddk-managing"
+    },
+    {
+      "id": "f60",
+      "topic_id": "high_glucose",
+      "text": "Các biểu hiện có thể gặp gồm khát nước, tiểu thường xuyên, mệt mỏi hoặc nhìn mờ.",
+      "source_id": "niddk-managing"
+    },
+    {
+      "id": "f61",
+      "topic_id": "high_glucose",
+      "text": "Bệnh, căng thẳng và những thay đổi về ăn uống, vận động hoặc thuốc có thể ảnh hưởng mức glucose máu.",
+      "source_id": "niddk-managing"
+    },
+    {
+      "id": "f62",
+      "topic_id": "high_glucose",
+      "text": "Khi đường huyết thường xuyên cao hoặc kèm biểu hiện bất thường, cần trao đổi với nhân viên y tế thay vì tự thay đổi thuốc.",
+      "source_id": "niddk-managing"
+    },
+    {
+      "id": "f63",
+      "topic_id": "low_glucose",
+      "text": "Hạ đường huyết xảy ra khi mức glucose máu xuống thấp; có thể xuất hiện ở người dùng một số thuốc điều trị đái tháo đường.",
+      "source_id": "cdc-hypo"
+    },
+    {
+      "id": "f64",
+      "topic_id": "low_glucose",
+      "text": "Một số dấu hiệu đường huyết thấp là run, vã mồ hôi, đói, chóng mặt hoặc tim đập nhanh.",
+      "source_id": "cdc-hypo"
+    },
+    {
+      "id": "f65",
+      "topic_id": "low_glucose",
+      "text": "Hạ đường huyết nặng có thể gây lú lẫn, mất khả năng tự chăm sóc và cần được trợ giúp y tế ngay.",
+      "source_id": "cdc-hypo"
+    },
+    {
+      "id": "f66",
+      "topic_id": "low_glucose",
+      "text": "Người mắc đái tháo đường nên biết cách nhận ra tình huống khẩn cấp và thống nhất kế hoạch xử trí với nhân viên y tế.",
+      "source_id": "cdc-hypo"
+    },
+    {
+      "id": "f67",
+      "topic_id": "emergency_dka",
+      "text": "Nhiễm toan ceton do đái tháo đường (DKA) là biến chứng nghiêm trọng liên quan đến thiếu insulin và sự tích tụ ceton.",
+      "source_id": "cdc-dka"
+    },
+    {
+      "id": "f68",
+      "topic_id": "emergency_dka",
+      "text": "Các dấu hiệu cảnh báo có thể gồm nôn nhiều, khó thở, hơi thở có mùi trái cây và tình trạng suy sụp nhanh.",
+      "source_id": "cdc-dka"
+    },
+    {
+      "id": "f69",
+      "topic_id": "emergency_dka",
+      "text": "Nghi ngờ nhiễm toan ceton là tình huống cần được chăm sóc y tế cấp cứu, không nên chỉ dựa vào chatbot để đánh giá.",
+      "source_id": "cdc-dka"
+    },
+    {
+      "id": "f70",
+      "topic_id": "emergency_dka",
+      "text": "DKA thường gặp ở type 1 nhưng cũng có thể xảy ra ở một số người mắc type 2.",
+      "source_id": "cdc-dka"
+    },
+    {
+      "id": "f71",
+      "topic_id": "medicines_overview",
+      "text": "Phương pháp quản lý đái tháo đường có thể bao gồm chế độ sinh hoạt và thuốc do nhân viên y tế chỉ định.",
+      "source_id": "niddk-medicines"
+    },
+    {
+      "id": "f72",
+      "topic_id": "medicines_overview",
+      "text": "Người mắc type 1 cần insulin vì tuyến tụy sản xuất rất ít hoặc không sản xuất insulin.",
+      "source_id": "niddk-medicines"
+    },
+    {
+      "id": "f73",
+      "topic_id": "medicines_overview",
+      "text": "Một số người mắc type 2 cần dùng thuốc uống hoặc thuốc tiêm tùy tình trạng.",
+      "source_id": "niddk-medicines"
+    },
+    {
+      "id": "f74",
+      "topic_id": "medicines_overview",
+      "text": "Không có một loại thuốc hoặc chế độ điều trị duy nhất thích hợp cho tất cả người bệnh; không tự chọn hay đổi liều thuốc dựa trên câu trả lời chatbot.",
+      "source_id": "niddk-medicines"
+    },
+    {
+      "id": "f75",
+      "topic_id": "complications",
+      "text": "Đái tháo đường kéo dài có thể ảnh hưởng mắt, thận, thần kinh, tim và mạch máu.",
+      "source_id": "niddk-complications"
+    },
+    {
+      "id": "f76",
+      "topic_id": "complications",
+      "text": "Kiểm soát đường huyết, huyết áp và các yếu tố nguy cơ giúp giảm nguy cơ nhiều biến chứng.",
+      "source_id": "niddk-complications"
+    },
+    {
+      "id": "f77",
+      "topic_id": "complications",
+      "text": "Tổn thương thần kinh và giảm lưu thông máu có thể tăng nguy cơ vấn đề ở bàn chân.",
+      "source_id": "niddk-complications"
+    },
+    {
+      "id": "f78",
+      "topic_id": "complications",
+      "text": "Khám mắt và đánh giá thận định kỳ có vai trò quan trọng trong theo dõi bệnh.",
+      "source_id": "niddk-complications"
+    },
+    {
+      "id": "f79",
+      "topic_id": "checkups",
+      "text": "Lịch theo dõi bệnh đái tháo đường có thể gồm đánh giá đường huyết, huyết áp và các xét nghiệm theo chỉ định.",
+      "source_id": "cdc-care"
+    },
+    {
+      "id": "f80",
+      "topic_id": "checkups",
+      "text": "Đánh giá sức khỏe bàn chân và sớm báo cho nhân viên y tế khi phát hiện thay đổi bất thường là một phần chăm sóc định kỳ.",
+      "source_id": "cdc-care"
+    },
+    {
+      "id": "f81",
+      "topic_id": "checkups",
+      "text": "Khám mắt và đánh giá chức năng thận có thể được đưa vào kế hoạch theo dõi tùy từng người.",
+      "source_id": "cdc-care"
+    },
+    {
+      "id": "f82",
+      "topic_id": "checkups",
+      "text": "Lịch tái khám và xét nghiệm nên do nhóm chăm sóc y tế xác định, không nên áp dụng cùng một lịch cho tất cả mọi người.",
+      "source_id": "cdc-care"
+    },
+    {
+      "id": "f083",
+      "topic_id": "insulin_basics",
+      "text": "Insulin là hormone giúp glucose trong máu đi vào tế bào để cung cấp năng lượng.",
+      "source_id": "niddk-types-what"
+    },
+    {
+      "id": "f084",
+      "topic_id": "insulin_basics",
+      "text": "Tuyến tụy là cơ quan sản xuất hormone insulin trong cơ thể.",
+      "source_id": "niddk-types-what"
+    },
+    {
+      "id": "f085",
+      "topic_id": "insulin_basics",
+      "text": "Ở đái tháo đường type 1, hệ miễn dịch làm tổn thương các tế bào tạo insulin, nên cơ thể tạo rất ít hoặc không tạo insulin.",
+      "source_id": "niddk-types-what"
+    },
+    {
+      "id": "f086",
+      "topic_id": "insulin_basics",
+      "text": "Ở đái tháo đường type 2, tế bào đáp ứng kém với insulin hoặc tuyến tụy không tạo đủ insulin.",
+      "source_id": "niddk-types-what"
+    },
+    {
+      "id": "f087",
+      "topic_id": "insulin_basics",
+      "text": "Khi insulin không đủ hoặc không hoạt động hiệu quả, glucose có thể tích tụ trong máu khiến đường huyết tăng cao.",
+      "source_id": "niddk-types-what"
+    },
+    {
+      "id": "f088",
+      "topic_id": "eye_health",
+      "text": "Đái tháo đường có thể làm tổn thương các mạch máu nhỏ ở mắt và gây bệnh võng mạc do đái tháo đường.",
+      "source_id": "niddk-eye-health"
+    },
+    {
+      "id": "f089",
+      "topic_id": "eye_health",
+      "text": "Bệnh võng mạc do đái tháo đường có thể không gây triệu chứng ở giai đoạn sớm.",
+      "source_id": "niddk-eye-health"
+    },
+    {
+      "id": "f090",
+      "topic_id": "eye_health",
+      "text": "Khám đáy mắt có giãn đồng tử giúp phát hiện các vấn đề mắt do đái tháo đường.",
+      "source_id": "niddk-eye-health"
+    },
+    {
+      "id": "f091",
+      "topic_id": "eye_health",
+      "text": "Bảo vệ thị lực là một lý do cần quản lý đường huyết, huyết áp và cholesterol theo kế hoạch chăm sóc.",
+      "source_id": "niddk-eye-health"
+    },
+    {
+      "id": "f092",
+      "topic_id": "eye_health",
+      "text": "Thị lực thay đổi đột ngột, xuất hiện nhiều chấm bay hoặc chớp sáng mới cần được đánh giá y tế khẩn trương.",
+      "source_id": "niddk-eye-health"
+    },
+    {
+      "id": "f093",
+      "topic_id": "kidney_health",
+      "text": "Đường huyết cao kéo dài có thể gây tổn thương các mạch máu nhỏ tại thận.",
+      "source_id": "niddk-kidney-health"
+    },
+    {
+      "id": "f094",
+      "topic_id": "kidney_health",
+      "text": "Bệnh thận do đái tháo đường có thể tiến triển âm thầm mà không có triệu chứng rõ rệt.",
+      "source_id": "niddk-kidney-health"
+    },
+    {
+      "id": "f095",
+      "topic_id": "kidney_health",
+      "text": "Xét nghiệm albumin trong nước tiểu là một phương pháp được dùng để phát hiện dấu hiệu tổn thương thận.",
+      "source_id": "niddk-kidney-health"
+    },
+    {
+      "id": "f096",
+      "topic_id": "kidney_health",
+      "text": "Xét nghiệm máu đánh giá khả năng lọc của thận giúp theo dõi chức năng thận.",
+      "source_id": "niddk-kidney-health"
+    },
+    {
+      "id": "f097",
+      "topic_id": "kidney_health",
+      "text": "Quản lý đường huyết và huyết áp theo chỉ định có vai trò quan trọng trong bảo vệ thận.",
+      "source_id": "niddk-kidney-health"
+    },
+    {
+      "id": "f098",
+      "topic_id": "foot_health",
+      "text": "Đái tháo đường có thể gây tổn thương thần kinh khiến bàn chân tê hoặc giảm cảm giác.",
+      "source_id": "niddk-foot-health"
+    },
+    {
+      "id": "f099",
+      "topic_id": "foot_health",
+      "text": "Lưu thông máu kém có thể khiến vết xước hoặc vết thương ở bàn chân người bệnh tiểu đường lâu lành hơn.",
+      "source_id": "niddk-foot-health"
+    },
+    {
+      "id": "f100",
+      "topic_id": "foot_health",
+      "text": "Quan sát bàn chân hằng ngày giúp sớm phát hiện phồng rộp, vết xước và vùng da đỏ bất thường.",
+      "source_id": "niddk-foot-health"
+    },
+    {
+      "id": "f101",
+      "topic_id": "foot_health",
+      "text": "Giày dép vừa chân và bảo vệ bàn chân giúp giảm nguy cơ trầy xước hoặc tổn thương.",
+      "source_id": "niddk-foot-health"
+    },
+    {
+      "id": "f102",
+      "topic_id": "foot_health",
+      "text": "Vết thương ở bàn chân không lành hoặc có dấu hiệu nhiễm trùng cần được nhân viên y tế kiểm tra.",
+      "source_id": "niddk-foot-health"
+    },
+    {
+      "id": "f103",
+      "topic_id": "heart_health",
+      "text": "Đái tháo đường làm tăng nguy cơ bệnh tim mạch và đột quỵ.",
+      "source_id": "niddk-heart-health"
+    },
+    {
+      "id": "f104",
+      "topic_id": "heart_health",
+      "text": "Đường huyết tăng kéo dài có thể ảnh hưởng đến mạch máu và các dây thần kinh liên quan đến tim.",
+      "source_id": "niddk-heart-health"
+    },
+    {
+      "id": "f105",
+      "topic_id": "heart_health",
+      "text": "Huyết áp và cholesterol cao có thể làm tăng thêm nguy cơ tim mạch ở người bệnh tiểu đường.",
+      "source_id": "niddk-heart-health"
+    },
+    {
+      "id": "f106",
+      "topic_id": "heart_health",
+      "text": "Theo dõi đường huyết, huyết áp, cholesterol và tránh hút thuốc là các hướng quản lý sức khỏe tim mạch.",
+      "source_id": "niddk-heart-health"
+    },
+    {
+      "id": "f107",
+      "topic_id": "heart_health",
+      "text": "Đau tức ngực hoặc các dấu hiệu đột quỵ khởi phát đột ngột cần được cấp cứu ngay.",
+      "source_id": "niddk-heart-health"
+    },
+    {
+      "id": "f108",
+      "topic_id": "after_gestational",
+      "text": "Đái tháo đường thai kỳ thường cải thiện sau khi sinh nhưng vẫn làm tăng nguy cơ đái tháo đường type 2 sau này.",
+      "source_id": "niddk-types-what"
+    },
+    {
+      "id": "f109",
+      "topic_id": "after_gestational",
+      "text": "Người có tiền sử đái tháo đường thai kỳ cần trao đổi với bác sĩ về xét nghiệm đường huyết sau sinh.",
+      "source_id": "cdc-gestational"
+    },
+    {
+      "id": "f110",
+      "topic_id": "after_gestational",
+      "text": "Sau khi sinh, người từng mắc đái tháo đường thai kỳ nên trao đổi với nhân viên y tế về xét nghiệm đường huyết theo dõi sức khỏe.",
+      "source_id": "cdc-gestational"
+    },
+    {
+      "id": "f111",
+      "topic_id": "after_gestational",
+      "text": "Người có tiền sử đái tháo đường thai kỳ cần tiếp tục theo dõi nguy cơ đái tháo đường type 2 về lâu dài.",
+      "source_id": "cdc-gestational"
+    },
+    {
+      "id": "f112",
+      "topic_id": "after_gestational",
+      "text": "Người từng mắc đái tháo đường thai kỳ có thể trao đổi với nhóm chăm sóc về sức khỏe sau sinh và hỗ trợ nuôi con bằng sữa mẹ.",
+      "source_id": "cdc-gestational"
+    },
+    {
+      "id": "f113",
+      "topic_id": "sick_days",
+      "text": "Khi mắc bệnh cấp tính, cơ thể tiết các hormone đáp ứng stress có thể khiến đường huyết thay đổi.",
+      "source_id": "cdc-sick-days"
+    },
+    {
+      "id": "f114",
+      "topic_id": "sick_days",
+      "text": "Khi bị ốm, ăn uống không như bình thường cũng có thể làm việc quản lý đường huyết khó hơn.",
+      "source_id": "cdc-sick-days"
+    },
+    {
+      "id": "f115",
+      "topic_id": "sick_days",
+      "text": "Người mắc tiểu đường nên có kế hoạch ngày ốm đã được nhân viên y tế hướng dẫn từ trước.",
+      "source_id": "cdc-sick-days"
+    },
+    {
+      "id": "f116",
+      "topic_id": "sick_days",
+      "text": "Mất nước trong khi bị ốm có thể làm tình trạng đường huyết khó kiểm soát hơn.",
+      "source_id": "cdc-sick-days"
+    },
+    {
+      "id": "f117",
+      "topic_id": "sick_days",
+      "text": "Khó thở, không thể giữ nước uống hoặc có dấu hiệu nhiễm toan ceton là tình huống cần đánh giá y tế khẩn cấp.",
+      "source_id": "cdc-sick-days"
+    },
+    {
+      "id": "f118",
+      "topic_id": "sleep_stress",
+      "text": "Căng thẳng có thể ảnh hưởng đến đường huyết và làm việc theo kế hoạch chăm sóc khó hơn.",
+      "source_id": "cdc-mental-health"
+    },
+    {
+      "id": "f119",
+      "topic_id": "sleep_stress",
+      "text": "Thiếu ngủ có thể làm giảm hiệu quả sử dụng insulin của cơ thể ở một số người.",
+      "source_id": "cdc-sleep-glucose"
+    },
+    {
+      "id": "f120",
+      "topic_id": "sleep_stress",
+      "text": "Căng thẳng do việc quản lý đái tháo đường kéo dài đôi khi được gọi là diabetes distress.",
+      "source_id": "cdc-mental-health"
+    },
+    {
+      "id": "f121",
+      "topic_id": "sleep_stress",
+      "text": "Giấc ngủ phù hợp và thói quen thư giãn có thể hỗ trợ sức khỏe chung ở người mắc đái tháo đường.",
+      "source_id": "cdc-living"
+    },
+    {
+      "id": "f122",
+      "topic_id": "sleep_stress",
+      "text": "Khi căng thẳng ảnh hưởng đến cuộc sống hoặc việc chăm sóc bệnh, người bệnh có thể trao đổi với nhân viên y tế để được hỗ trợ.",
+      "source_id": "cdc-mental-health"
+    },
+    {
+      "id": "f123",
+      "topic_id": "daily_living",
+      "text": "Người mắc tiểu đường vẫn có thể học tập, làm việc và sinh hoạt với kế hoạch tự chăm sóc phù hợp.",
+      "source_id": "cdc-living"
+    },
+    {
+      "id": "f124",
+      "topic_id": "daily_living",
+      "text": "Theo dõi đường huyết theo hướng dẫn giúp người bệnh hiểu phản ứng của cơ thể với sinh hoạt thường ngày.",
+      "source_id": "cdc-living"
+    },
+    {
+      "id": "f125",
+      "topic_id": "daily_living",
+      "text": "Việc xây dựng thói quen nhỏ, cụ thể và đều đặn có thể giúp thực hiện kế hoạch chăm sóc thuận lợi hơn.",
+      "source_id": "cdc-living"
+    },
+    {
+      "id": "f126",
+      "topic_id": "daily_living",
+      "text": "Giáo dục tự quản lý bệnh tiểu đường giúp người bệnh hiểu kỹ năng chăm sóc và tìm được hỗ trợ phù hợp.",
+      "source_id": "cdc-living"
+    },
+    {
+      "id": "f127",
+      "topic_id": "daily_living",
+      "text": "Việc lựa chọn thực phẩm, vận động, theo dõi sức khỏe và tái khám cần được cá nhân hóa cùng nhóm chăm sóc.",
+      "source_id": "cdc-living"
+    },
+    {
+      "id": "f128",
+      "topic_id": "travel_health",
+      "text": "Du lịch có thể làm thay đổi giờ ăn, mức vận động và múi giờ, từ đó ảnh hưởng đường huyết.",
+      "source_id": "cdc-travel"
+    },
+    {
+      "id": "f129",
+      "topic_id": "travel_health",
+      "text": "Thay đổi múi giờ trong chuyến đi có thể làm lịch sinh hoạt và bữa ăn khác thường; nên lên kế hoạch theo dõi sức khỏe phù hợp.",
+      "source_id": "cdc-travel"
+    },
+    {
+      "id": "f130",
+      "topic_id": "travel_health",
+      "text": "Dụng cụ theo dõi đường huyết nên được chuẩn bị để người bệnh có thể tiếp tục ghi nhận chỉ số khi đi xa.",
+      "source_id": "cdc-travel"
+    },
+    {
+      "id": "f131",
+      "topic_id": "travel_health",
+      "text": "Nhiệt độ khắc nghiệt có thể ảnh hưởng đến thiết bị theo dõi đường huyết, vì vậy nên kiểm tra hướng dẫn bảo quản thiết bị.",
+      "source_id": "cdc-travel"
+    },
+    {
+      "id": "f132",
+      "topic_id": "travel_health",
+      "text": "Đi bộ nhiều khi du lịch có thể làm bàn chân bị phồng rộp, vì vậy cần chú ý bảo vệ bàn chân.",
+      "source_id": "cdc-travel"
+    },
+    {
+      "id": "f133",
+      "topic_id": "misconceptions",
+      "text": "Không phải mọi trường hợp tiểu đường đều giống nhau: type 1, type 2 và tiểu đường thai kỳ có cơ chế và cách quản lý khác nhau.",
+      "source_id": "niddk-types-what"
+    },
+    {
+      "id": "f134",
+      "topic_id": "misconceptions",
+      "text": "Đái tháo đường type 2 có thể xuất hiện ở người trẻ, không chỉ ở người lớn tuổi.",
+      "source_id": "niddk-types-what"
+    },
+    {
+      "id": "f135",
+      "topic_id": "misconceptions",
+      "text": "Đái tháo đường type 2 liên quan nhiều yếu tố, gồm di truyền, đề kháng insulin và các yếu tố sức khỏe khác; không thể quy cho riêng một món ăn.",
+      "source_id": "niddk-types-what"
+    },
+    {
+      "id": "f136",
+      "topic_id": "misconceptions",
+      "text": "Kiểm soát đường huyết tốt không đồng nghĩa bệnh đã được chữa khỏi hoàn toàn; việc theo dõi vẫn cần theo hướng dẫn chuyên môn.",
+      "source_id": "ada-remission-consensus"
+    },
+    {
+      "id": "f137",
+      "topic_id": "misconceptions",
+      "text": "Đái tháo đường là rối loạn chuyển hóa liên quan insulin và glucose, không phải bệnh lây truyền qua tiếp xúc thông thường.",
+      "source_id": "niddk-types-what"
+    }
+  ],
+  "relations": [
+    {
+      "from_topic": "diabetes",
+      "to_topic": "types",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "types",
+      "to_topic": "type1",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "types",
+      "to_topic": "type2",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "types",
+      "to_topic": "gestational",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "symptoms",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "testing",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "testing",
+      "to_topic": "a1c",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "nutrition",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "risk_factors",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "prediabetes",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "prevention",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "nutrition",
+      "to_topic": "carb_rice",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "nutrition",
+      "to_topic": "fruits",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "nutrition",
+      "to_topic": "sweets",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "nutrition",
+      "to_topic": "drinks",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "exercise",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "testing",
+      "to_topic": "blood_glucose",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "high_glucose",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "low_glucose",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "emergency_dka",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "medicines_overview",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "complications",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "checkups",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "insulin_basics",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "eye_health",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "kidney_health",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "foot_health",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "heart_health",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "after_gestational",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "sick_days",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "sleep_stress",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "daily_living",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "travel_health",
+      "type": "RELATED_TO"
+    },
+    {
+      "from_topic": "diabetes",
+      "to_topic": "misconceptions",
+      "type": "RELATED_TO"
+    }
+  ]
+}

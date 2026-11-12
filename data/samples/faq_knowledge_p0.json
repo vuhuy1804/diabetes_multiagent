@@ -1,0 +1,90 @@
+[
+  {
+    "question": "Bệnh tiểu đường có di truyền không?",
+    "expected_topic": "risk_factors"
+  },
+  {
+    "question": "Nguyên nhân bệnh tiểu đường là gì?",
+    "expected_topic": "risk_factors"
+  },
+  {
+    "question": "Tiền tiểu đường là gì?",
+    "expected_topic": "prediabetes"
+  },
+  {
+    "question": "Làm sao phòng tránh bệnh tiểu đường type 2?",
+    "expected_topic": "prevention"
+  },
+  {
+    "question": "Người tiểu đường có ăn cơm được không?",
+    "expected_topic": "carb_rice"
+  },
+  {
+    "question": "Người tiểu đường ăn gạo lứt được không?",
+    "expected_topic": "carb_rice"
+  },
+  {
+    "question": "Bị tiểu đường ăn chuối được không?",
+    "expected_topic": "fruits"
+  },
+  {
+    "question": "Ăn trái cây có được không?",
+    "expected_topic": "fruits"
+  },
+  {
+    "question": "Bệnh tiểu đường có ăn bánh ngọt được không?",
+    "expected_topic": "sweets"
+  },
+  {
+    "question": "Người tiểu đường có uống nước ngọt được không?",
+    "expected_topic": "drinks"
+  },
+  {
+    "question": "Tiểu đường nên uống gì?",
+    "expected_topic": "drinks"
+  },
+  {
+    "question": "Người mắc tiểu đường có tập thể dục được không?",
+    "expected_topic": "exercise"
+  },
+  {
+    "question": "Đi bộ khi mắc bệnh tiểu đường có lợi ích gì?",
+    "expected_topic": "exercise"
+  },
+  {
+    "question": "Máy đo đường huyết tại nhà đo gì?",
+    "expected_topic": "blood_glucose"
+  },
+  {
+    "question": "Đường huyết cao có nguy hiểm không?",
+    "expected_topic": "high_glucose"
+  },
+  {
+    "question": "Tụt đường huyết có những dấu hiệu gì?",
+    "expected_topic": "low_glucose"
+  },
+  {
+    "question": "Nhiễm toan ceton là gì?",
+    "expected_topic": "emergency_dka"
+  },
+  {
+    "question": "Bệnh tiểu đường có các loại thuốc nào?",
+    "expected_topic": "medicines_overview"
+  },
+  {
+    "question": "Bệnh tiểu đường gây biến chứng gì?",
+    "expected_topic": "complications"
+  },
+  {
+    "question": "Người bệnh tiểu đường cần tái khám những gì?",
+    "expected_topic": "checkups"
+  },
+  {
+    "question": "Bệnh tiểu đường thì nên ăn gì?",
+    "expected_topic": "nutrition"
+  },
+  {
+    "question": "Bệnh tiểu đường có mấy loại?",
+    "expected_topic": "types"
+  }
+]

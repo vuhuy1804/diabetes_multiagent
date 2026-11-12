@@ -1,0 +1,27 @@
+[
+  {
+    "case_id": "valid_knowledge",
+    "request": {"features":{"gender":"Female","age":44,"hypertension":0,"heart_disease":0,"smoking_history":"never","bmi":27.32,"HbA1c_level":5.7,"blood_glucose_level":140}, "question":"Bệnh tiểu đường có mấy loại chính?"},
+    "expect": {"status":"ok","report_ready":true,"knowledge_status":"ok"}
+  },
+  {
+    "case_id": "valid_without_knowledge",
+    "request": {"features":{"gender":"Female","age":44,"hypertension":0,"heart_disease":0,"smoking_history":"never","bmi":27.32,"HbA1c_level":5.7,"blood_glucose_level":140}},
+    "expect": {"status":"ok","report_ready":true,"knowledge_status":"skipped"}
+  },
+  {
+    "case_id": "invalid_bmi_format",
+    "request": {"features":{"gender":"Female","age":44,"hypertension":0,"heart_disease":0,"smoking_history":"never","bmi":"27,32","HbA1c_level":5.7,"blood_glucose_level":140}},
+    "expect": {"status":"error","error_type":"invalid_patient_data","report_ready":false}
+  },
+  {
+    "case_id": "invalid_knowledge_question",
+    "request": {"features":{"gender":"Female","age":44,"hypertension":0,"heart_disease":0,"smoking_history":"never","bmi":27.32,"HbA1c_level":5.7,"blood_glucose_level":140},"question":"?"},
+    "expect": {"status":"error","error_type":"invalid_question","report_ready":false}
+  },
+  {
+    "case_id": "missing_feature",
+    "request": {"features":{"gender":"Female","age":44,"hypertension":0,"heart_disease":0,"smoking_history":"never","bmi":27.32,"HbA1c_level":5.7}},
+    "expect": {"status":"error","error_type":"invalid_patient_data","report_ready":false}
+  }
+]

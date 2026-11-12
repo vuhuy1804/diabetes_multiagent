@@ -1,0 +1,13 @@
+{
+  "features": {
+    "gender": " female ",
+    "age": "44",
+    "hypertension": "0",
+    "heart_disease": 0,
+    "smoking_history": " NEVER ",
+    "bmi": "27.32",
+    "HbA1c_level": "5.7",
+    "blood_glucose_level": "140"
+  },
+  "question": "Bệnh tiểu đường có mấy loại chính?"
+}

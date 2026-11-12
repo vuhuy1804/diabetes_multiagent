@@ -1,0 +1,686 @@
+{
+  "dataset_id": "faq-p1-evaluation-90",
+  "version": "1.0",
+  "notes": "90 manually authored synthetic/public FAQ questions (66 new topics, 18 older, 6 out-of-scope). Used to refine retrieval during P1 development; NOT a pristine held-out clinical validation set.",
+  "cases": [
+    {
+      "case_id": "P1-01-01",
+      "subset": "p1_new",
+      "question": "Insulin là hormone gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "insulin_basics",
+      "expected_fact_id": "f083"
+    },
+    {
+      "case_id": "P1-01-02",
+      "subset": "p1_new",
+      "question": "Tuyến tụy có tạo ra insulin trong cơ thể không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "insulin_basics",
+      "expected_fact_id": "f084"
+    },
+    {
+      "case_id": "P1-01-03",
+      "subset": "p1_new",
+      "question": "Người mắc tiểu đường type 1 thiếu insulin ra sao?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "insulin_basics",
+      "expected_fact_id": "f085"
+    },
+    {
+      "case_id": "P1-01-04",
+      "subset": "p1_new",
+      "question": "Vì sao người bệnh type 2 có thể không sử dụng insulin hiệu quả?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "insulin_basics",
+      "expected_fact_id": "f086"
+    },
+    {
+      "case_id": "P1-01-05",
+      "subset": "p1_new",
+      "question": "Khi cơ thể thiếu insulin thì đường huyết sẽ thế nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "insulin_basics",
+      "expected_fact_id": "f087"
+    },
+    {
+      "case_id": "P1-01-06",
+      "subset": "p1_new",
+      "question": "Insulin có vai trò như thế nào với người bị đái tháo đường?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "insulin_basics"
+    },
+    {
+      "case_id": "P1-02-01",
+      "subset": "p1_new",
+      "question": "Bệnh tiểu đường ảnh hưởng đến võng mạc mắt thế nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "eye_health",
+      "expected_fact_id": "f088"
+    },
+    {
+      "case_id": "P1-02-02",
+      "subset": "p1_new",
+      "question": "Biến chứng mắt giai đoạn sớm có dễ nhận ra không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "eye_health",
+      "expected_fact_id": "f089"
+    },
+    {
+      "case_id": "P1-02-03",
+      "subset": "p1_new",
+      "question": "Khám đáy mắt có giãn đồng tử nhằm kiểm tra gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "eye_health",
+      "expected_fact_id": "f090"
+    },
+    {
+      "case_id": "P1-02-04",
+      "subset": "p1_new",
+      "question": "Làm gì để bảo vệ thị lực khi bị đái tháo đường?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "eye_health",
+      "expected_fact_id": "f091"
+    },
+    {
+      "case_id": "P1-02-05",
+      "subset": "p1_new",
+      "question": "Nếu thấy chớp sáng trong mắt bất ngờ thì có đáng lo không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "eye_health",
+      "expected_fact_id": "f092"
+    },
+    {
+      "case_id": "P1-02-06",
+      "subset": "p1_new",
+      "question": "Tại sao người tiểu đường cần quan tâm đến khám mắt?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "eye_health"
+    },
+    {
+      "case_id": "P1-03-01",
+      "subset": "p1_new",
+      "question": "Đái tháo đường có gây tổn thương thận không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "kidney_health",
+      "expected_fact_id": "f093"
+    },
+    {
+      "case_id": "P1-03-02",
+      "subset": "p1_new",
+      "question": "Bệnh thận do tiểu đường có triệu chứng rõ ngay không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "kidney_health",
+      "expected_fact_id": "f094"
+    },
+    {
+      "case_id": "P1-03-03",
+      "subset": "p1_new",
+      "question": "Xét nghiệm albumin niệu giúp phát hiện điều gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "kidney_health",
+      "expected_fact_id": "f095"
+    },
+    {
+      "case_id": "P1-03-04",
+      "subset": "p1_new",
+      "question": "Bác sĩ kiểm tra chức năng lọc của thận bằng cách nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "kidney_health",
+      "expected_fact_id": "f096"
+    },
+    {
+      "case_id": "P1-03-05",
+      "subset": "p1_new",
+      "question": "Đường huyết và huyết áp có ảnh hưởng gì đến thận?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "kidney_health",
+      "expected_fact_id": "f097"
+    },
+    {
+      "case_id": "P1-03-06",
+      "subset": "p1_new",
+      "question": "Biến chứng thận ở người mắc đái tháo đường là gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "kidney_health"
+    },
+    {
+      "case_id": "P1-04-01",
+      "subset": "p1_new",
+      "question": "Tiểu đường có làm tê bàn chân không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "foot_health",
+      "expected_fact_id": "f098"
+    },
+    {
+      "case_id": "P1-04-02",
+      "subset": "p1_new",
+      "question": "Vì sao vết xước ở bàn chân người bệnh lâu lành?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "foot_health",
+      "expected_fact_id": "f099"
+    },
+    {
+      "case_id": "P1-04-03",
+      "subset": "p1_new",
+      "question": "Người mắc tiểu đường cần kiểm tra bàn chân hằng ngày để làm gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "foot_health",
+      "expected_fact_id": "f100"
+    },
+    {
+      "case_id": "P1-04-04",
+      "subset": "p1_new",
+      "question": "Tại sao phải chọn giày vừa chân khi bị tiểu đường?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "foot_health",
+      "expected_fact_id": "f101"
+    },
+    {
+      "case_id": "P1-04-05",
+      "subset": "p1_new",
+      "question": "Vết loét chân không lành có cần khám bác sĩ không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "foot_health",
+      "expected_fact_id": "f102"
+    },
+    {
+      "case_id": "P1-04-06",
+      "subset": "p1_new",
+      "question": "Các vấn đề bàn chân thường gặp khi mắc đái tháo đường?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "foot_health"
+    },
+    {
+      "case_id": "P1-05-01",
+      "subset": "p1_new",
+      "question": "Bệnh tiểu đường có tăng nguy cơ tim mạch không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "heart_health",
+      "expected_fact_id": "f103"
+    },
+    {
+      "case_id": "P1-05-02",
+      "subset": "p1_new",
+      "question": "Đường huyết cao có làm hại mạch máu và tim không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "heart_health",
+      "expected_fact_id": "f104"
+    },
+    {
+      "case_id": "P1-05-03",
+      "subset": "p1_new",
+      "question": "Huyết áp cao cùng tiểu đường ảnh hưởng tim mạch thế nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "heart_health",
+      "expected_fact_id": "f105"
+    },
+    {
+      "case_id": "P1-05-04",
+      "subset": "p1_new",
+      "question": "Chăm sóc tim mạch khi mắc tiểu đường cần lưu ý gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "heart_health",
+      "expected_fact_id": "f106"
+    },
+    {
+      "case_id": "P1-05-05",
+      "subset": "p1_new",
+      "question": "Các dấu hiệu đột quỵ bất ngờ có cần cấp cứu không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "heart_health",
+      "expected_fact_id": "f107"
+    },
+    {
+      "case_id": "P1-05-06",
+      "subset": "p1_new",
+      "question": "Tiểu đường và nguy cơ đột quỵ liên quan thế nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "heart_health"
+    },
+    {
+      "case_id": "P1-06-01",
+      "subset": "p1_new",
+      "question": "Sau sinh từng mắc tiểu đường thai kỳ có dễ bị type 2 không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "after_gestational",
+      "expected_fact_id": "f108"
+    },
+    {
+      "case_id": "P1-06-02",
+      "subset": "p1_new",
+      "question": "Người từng bị đái tháo đường thai kỳ có cần xét nghiệm sau sinh?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "after_gestational",
+      "expected_fact_id": "f109"
+    },
+    {
+      "case_id": "P1-06-03",
+      "subset": "p1_new",
+      "question": "Sau sinh từng bị tiểu đường thai kỳ nên hỏi bác sĩ về kiểm tra gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "after_gestational",
+      "expected_fact_id": "f110"
+    },
+    {
+      "case_id": "P1-06-04",
+      "subset": "p1_new",
+      "question": "Tại sao cần theo dõi đường huyết lâu dài sau tiểu đường thai kỳ?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "after_gestational",
+      "expected_fact_id": "f111"
+    },
+    {
+      "case_id": "P1-06-05",
+      "subset": "p1_new",
+      "question": "Tiểu đường thai kỳ sau sinh có cần hỏi về nuôi con bằng sữa mẹ không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "after_gestational",
+      "expected_fact_id": "f112"
+    },
+    {
+      "case_id": "P1-06-06",
+      "subset": "p1_new",
+      "question": "Sau khi sinh em bé thì tiểu đường thai kỳ có hết hoàn toàn?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "after_gestational"
+    },
+    {
+      "case_id": "P1-07-01",
+      "subset": "p1_new",
+      "question": "Khi bị sốt thì đường huyết có thay đổi không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sick_days",
+      "expected_fact_id": "f113"
+    },
+    {
+      "case_id": "P1-07-02",
+      "subset": "p1_new",
+      "question": "Nếu bị cúm và ăn ít đi thì đường huyết bị ảnh hưởng thế nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sick_days",
+      "expected_fact_id": "f114"
+    },
+    {
+      "case_id": "P1-07-03",
+      "subset": "p1_new",
+      "question": "Kế hoạch ngày ốm dành cho người tiểu đường có ý nghĩa gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sick_days",
+      "expected_fact_id": "f115"
+    },
+    {
+      "case_id": "P1-07-04",
+      "subset": "p1_new",
+      "question": "Mất nước khi đang bị bệnh có ảnh hưởng đường huyết không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sick_days",
+      "expected_fact_id": "f116"
+    },
+    {
+      "case_id": "P1-07-05",
+      "subset": "p1_new",
+      "question": "Người tiểu đường bị ốm mà khó thở có cần cấp cứu không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sick_days",
+      "expected_fact_id": "f117"
+    },
+    {
+      "case_id": "P1-07-06",
+      "subset": "p1_new",
+      "question": "Khi mắc tiểu đường và bị ốm cần chú ý điều gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sick_days"
+    },
+    {
+      "case_id": "P1-08-01",
+      "subset": "p1_new",
+      "question": "Stress kéo dài có ảnh hưởng đường huyết không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sleep_stress",
+      "expected_fact_id": "f118"
+    },
+    {
+      "case_id": "P1-08-02",
+      "subset": "p1_new",
+      "question": "Thiếu ngủ có làm cơ thể sử dụng insulin kém đi không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sleep_stress",
+      "expected_fact_id": "f119"
+    },
+    {
+      "case_id": "P1-08-03",
+      "subset": "p1_new",
+      "question": "Diabetes distress là trạng thái gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sleep_stress",
+      "expected_fact_id": "f120"
+    },
+    {
+      "case_id": "P1-08-04",
+      "subset": "p1_new",
+      "question": "Giấc ngủ và thư giãn có lợi gì với người mắc tiểu đường?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sleep_stress",
+      "expected_fact_id": "f121"
+    },
+    {
+      "case_id": "P1-08-05",
+      "subset": "p1_new",
+      "question": "Lo âu do quản lý tiểu đường thì có thể nhờ ai hỗ trợ?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sleep_stress",
+      "expected_fact_id": "f122"
+    },
+    {
+      "case_id": "P1-08-06",
+      "subset": "p1_new",
+      "question": "Căng thẳng và mất ngủ liên quan bệnh tiểu đường thế nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sleep_stress"
+    },
+    {
+      "case_id": "P1-09-01",
+      "subset": "p1_new",
+      "question": "Bị tiểu đường có đi học và đi làm bình thường được không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "daily_living",
+      "expected_fact_id": "f123"
+    },
+    {
+      "case_id": "P1-09-02",
+      "subset": "p1_new",
+      "question": "Theo dõi đường huyết có ích gì cho sinh hoạt hằng ngày?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "daily_living",
+      "expected_fact_id": "f124"
+    },
+    {
+      "case_id": "P1-09-03",
+      "subset": "p1_new",
+      "question": "Tại sao nên bắt đầu bằng thói quen tự chăm sóc nhỏ?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "daily_living",
+      "expected_fact_id": "f125"
+    },
+    {
+      "case_id": "P1-09-04",
+      "subset": "p1_new",
+      "question": "Giáo dục tự quản lý bệnh tiểu đường là gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "daily_living",
+      "expected_fact_id": "f126"
+    },
+    {
+      "case_id": "P1-09-05",
+      "subset": "p1_new",
+      "question": "Khi làm việc cần xây dựng kế hoạch chăm sóc như thế nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "daily_living",
+      "expected_fact_id": "f127"
+    },
+    {
+      "case_id": "P1-09-06",
+      "subset": "p1_new",
+      "question": "Sống chung với bệnh tiểu đường có khó không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "daily_living"
+    },
+    {
+      "case_id": "P1-10-01",
+      "subset": "p1_new",
+      "question": "Đi du lịch làm đường huyết thay đổi vì sao?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "travel_health",
+      "expected_fact_id": "f128"
+    },
+    {
+      "case_id": "P1-10-02",
+      "subset": "p1_new",
+      "question": "Đi máy bay qua múi giờ thì cần hỏi bác sĩ điều gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "travel_health",
+      "expected_fact_id": "f129"
+    },
+    {
+      "case_id": "P1-10-03",
+      "subset": "p1_new",
+      "question": "Khi đi xa có cần chuẩn bị máy đo đường huyết không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "travel_health",
+      "expected_fact_id": "f130"
+    },
+    {
+      "case_id": "P1-10-04",
+      "subset": "p1_new",
+      "question": "Thời tiết nóng khi đi du lịch ảnh hưởng thiết bị ra sao?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "travel_health",
+      "expected_fact_id": "f131"
+    },
+    {
+      "case_id": "P1-10-05",
+      "subset": "p1_new",
+      "question": "Đi bộ nhiều trong chuyến du lịch có làm chân bị phồng rộp?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "travel_health",
+      "expected_fact_id": "f132"
+    },
+    {
+      "case_id": "P1-10-06",
+      "subset": "p1_new",
+      "question": "Người mắc tiểu đường có đi du lịch được không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "travel_health"
+    },
+    {
+      "case_id": "P1-11-01",
+      "subset": "p1_new",
+      "question": "Có phải bệnh tiểu đường chỉ có một loại?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "misconceptions",
+      "expected_fact_id": "f133"
+    },
+    {
+      "case_id": "P1-11-02",
+      "subset": "p1_new",
+      "question": "Chỉ người lớn tuổi mới bị tiểu đường type 2 đúng không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "misconceptions",
+      "expected_fact_id": "f134"
+    },
+    {
+      "case_id": "P1-11-03",
+      "subset": "p1_new",
+      "question": "Ăn một món ngọt có phải là nguyên nhân duy nhất gây type 2?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "misconceptions",
+      "expected_fact_id": "f135"
+    },
+    {
+      "case_id": "P1-11-04",
+      "subset": "p1_new",
+      "question": "Đường huyết bình thường rồi là tiểu đường đã chữa khỏi hoàn toàn?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "misconceptions",
+      "expected_fact_id": "f136"
+    },
+    {
+      "case_id": "P1-11-05",
+      "subset": "p1_new",
+      "question": "Tiểu đường có lây khi tiếp xúc với người bệnh không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "misconceptions",
+      "expected_fact_id": "f137"
+    },
+    {
+      "case_id": "P1-11-06",
+      "subset": "p1_new",
+      "question": "Những hiểu lầm phổ biến về bệnh đái tháo đường là gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "misconceptions"
+    },
+    {
+      "case_id": "LEG-01",
+      "subset": "p0_legacy",
+      "question": "Bệnh tiểu đường nên ăn món gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "nutrition"
+    },
+    {
+      "case_id": "LEG-02",
+      "subset": "p0_legacy",
+      "question": "Tiểu đường type 1 và type 2 có gì khác nhau?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "types"
+    },
+    {
+      "case_id": "LEG-03",
+      "subset": "p0_legacy",
+      "question": "Người tiểu đường có ăn cơm trắng được không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "carb_rice"
+    },
+    {
+      "case_id": "LEG-04",
+      "subset": "p0_legacy",
+      "question": "Ăn gạo lứt có ổn với tiểu đường?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "carb_rice"
+    },
+    {
+      "case_id": "LEG-05",
+      "subset": "p0_legacy",
+      "question": "Bị tiểu đường có ăn hoa quả được không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "fruits"
+    },
+    {
+      "case_id": "LEG-06",
+      "subset": "p0_legacy",
+      "question": "Có cần kiêng hoàn toàn món ngọt không?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "sweets"
+    },
+    {
+      "case_id": "LEG-07",
+      "subset": "p0_legacy",
+      "question": "Người tiểu đường nên uống nước gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "drinks"
+    },
+    {
+      "case_id": "LEG-08",
+      "subset": "p0_legacy",
+      "question": "Vì sao cần vận động khi mắc tiểu đường?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "exercise"
+    },
+    {
+      "case_id": "LEG-09",
+      "subset": "p0_legacy",
+      "question": "Chỉ số HbA1c nghĩa là gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "a1c"
+    },
+    {
+      "case_id": "LEG-10",
+      "subset": "p0_legacy",
+      "question": "Người tiền tiểu đường là gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "prediabetes"
+    },
+    {
+      "case_id": "LEG-11",
+      "subset": "p0_legacy",
+      "question": "Nguy cơ di truyền bệnh tiểu đường thế nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "risk_factors"
+    },
+    {
+      "case_id": "LEG-12",
+      "subset": "p0_legacy",
+      "question": "Phòng ngừa type 2 bằng cách nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "prevention"
+    },
+    {
+      "case_id": "LEG-13",
+      "subset": "p0_legacy",
+      "question": "Thường có những dấu hiệu hạ đường huyết gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "low_glucose"
+    },
+    {
+      "case_id": "LEG-14",
+      "subset": "p0_legacy",
+      "question": "Đường huyết cao có dấu hiệu gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "high_glucose"
+    },
+    {
+      "case_id": "LEG-15",
+      "subset": "p0_legacy",
+      "question": "Nhiễm toan ceton là biến chứng gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "emergency_dka"
+    },
+    {
+      "case_id": "LEG-16",
+      "subset": "p0_legacy",
+      "question": "Xét nghiệm để đánh giá bệnh tiểu đường gồm gì?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "testing"
+    },
+    {
+      "case_id": "LEG-17",
+      "subset": "p0_legacy",
+      "question": "Người bệnh nên tái khám định kỳ thế nào?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "checkups"
+    },
+    {
+      "case_id": "LEG-18",
+      "subset": "p0_legacy",
+      "question": "Có bao nhiêu loại đái tháo đường chính?",
+      "expected_kind": "grounded_extractive",
+      "expected_topic": "types"
+    },
+    {
+      "case_id": "OOD-01",
+      "subset": "out_of_scope",
+      "question": "Phi hành gia mèo và quỹ đạo Sao Hỏa là gì?",
+      "expected_kind": "no_evidence"
+    },
+    {
+      "case_id": "OOD-02",
+      "subset": "out_of_scope",
+      "question": "Thiên thạch và động cơ plasma liên quan thế nào?",
+      "expected_kind": "no_evidence"
+    },
+    {
+      "case_id": "OOD-03",
+      "subset": "out_of_scope",
+      "question": "Kỹ thuật hàn TIG trên tàu biển thế nào?",
+      "expected_kind": "no_evidence"
+    },
+    {
+      "case_id": "OOD-04",
+      "subset": "out_of_scope",
+      "question": "Cho biết lịch thi môn vật lý lượng tử năm nay",
+      "expected_kind": "no_evidence"
+    },
+    {
+      "case_id": "OOD-05",
+      "subset": "out_of_scope",
+      "question": "Công thức động cơ đẩy phản lực mới nhất?",
+      "expected_kind": "no_evidence"
+    },
+    {
+      "case_id": "OOD-06",
+      "subset": "out_of_scope",
+      "question": "Mật mã của vệ tinh viễn thông là gì?",
+      "expected_kind": "no_evidence"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "features": {
+    "gender": "Female",
+    "age": 44.0,
+    "hypertension": 0,
+    "heart_disease": 0,
+    "smoking_history": "No Info",
+    "bmi": "27,32",
+    "HbA1c_level": 6.8,
+    "blood_glucose_level": 210.0
+  },
+  "prediction": {
+    "prediction": 0,
+    "model_score_class_1": 0.2,
+    "score_is_calibrated": false,
+    "output_kind": "dataset_label_classification",
+    "model_version": "SYNTHETIC_FIXTURE_ONLY",
+    "input_feature_names": [
+      "gender",
+      "age",
+      "hypertension",
+      "heart_disease",
+      "smoking_history",
+      "bmi",
+      "HbA1c_level",
+      "blood_glucose_level"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+# Diabetes Multi-Agent — repository root .gitignore
+# Keep source code, docs, tests, requirements, package-lock.json,
+# data/knowledge/*.json, data/knowledge/*.cypher and data/samples/ tracked.
+
+# Python virtual environments (main backend and isolated TensorFlow/Keras)
+.venv/
+.venv-keras/
+.venv_keras/
+venv/
+venv-keras/
+env/
+
+# Python build, caches, tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+*.whl
+
+# Local secrets — retain sample configuration files
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Datasets downloaded for training (retain data/raw/README.md)
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
+
+# Locally trained models and derived model metadata (retain models/README.md)
+models/*
+!models/README.md
+!models/.gitkeep
+config/model_manifest.json
+config/*_manifest.json
+
+# Execution logs, metrics, evaluation, SQLite, experiment outputs
+outputs/*
+!outputs/.gitkeep
+experiments/
+logs/
+runs/
+tensorboard/
+*.tfevents.*
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.db
+*.db-shm
+*.db-wal
+
+# Notebooks: keep .ipynb source, not checkpoint artifacts
+.ipynb_checkpoints/
+
+# Frontend — keep package.json AND package-lock.json
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/.vite/
+node_modules/
+
+# IDE and operating-system artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
